@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Juhi</title>
+	<link rel="stylesheet" type="text/css" href="test1.css">
+
+</head>
+<body>
+   
+	<header>
+		<div class="header-buttons">
+			<button class="login-button">Log In</button>
+			<button class="join-button">Join Now</button>
+			<div class="icon-space"></div>
+		  </div>
+		</header>
+		<main>
+		
+		<nav>
+			<ul>
+				<li><div class="container">
+          <button type="submit" class = "btn" onclick="openpopup()">Senior care</button>
+          <div class="popup" id="popup">
+            <h2>Who are You?</h2>
+            <button type="button" onclick="window.location.href='form.html'">Patient</button>
+
+            <button type="button">Volunteer</button>
+          </div>
+        </div></li>
+				
+		<li><div class="container">
+			<button type="submit" class = "btn" onclick="openpopup()">Disabled care</button>
+			<div class="popup" id="popup">
+			  <h2>Who are You?</h2>
+			  <button type="button" onclick="window.location.href='form.html'">Patient</button>
+  
+			  <button type="button">Volunteer</button>
+			</div>
+		  </div></li>
+		  <li><div class="container">
+			<button type="submit" class = "btn" onclick="openpopup()">tutoring</button>
+			<div class="popup" id="popup">
+			  <h2>Who are You?</h2>
+			  <button type="button" onclick="window.location.href='form.html'">Patient</button>
+  
+			  <button type="button">Volunteer</button>
+			</div>
+		  </div></li>
+		  <li><div class="container">
+			<button type="submit" class = "btn" onclick="openpopup()">donate</button>
+			<div class="popup" id="popup">
+			  <h2>Who are You?</h2>
+			  <button type="button" onclick="window.location.href='form.html'">Patient</button>
+  
+			  <button type="button">Volunteer</button>
+			</div>
+		  </div></li>
+					
+			</ul>
+		</nav>
+	</main>
+	
+	<section>
+		<h2>What We Do</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod ex mauris, vel accumsan lectus fermentum a. Nullam tincidunt, sapien in lobortis sodales, nisl enim tristique libero, eu lobortis mi orci ut nisi.</p>
+		<p>Nulla facilisi. Sed ac augue libero. Duis rutrum nibh vel diam fermentum, non suscipit quam pharetra. Integer nec ligula sit amet enim lacinia vulputate. Integer eget tincidunt enim. </p>
+	</section>
+	
+	<section>
+		<h2>Our Team</h2>
+		<div class="team-member">
+			<img src="member1.jpg" alt="Team Member 1">
+			<h3>John Doe</h3>
+			<p>CEO</p>
+		</div>
+		<div class="team-member">
+			<img src="member2.jpg" alt="Team Member 2">
+			<h3>Jane Doe</h3>
+			<p>COO</p>
+		</div>
+	</section>
+	
+	<footer>
+		<p>&copy; 2023 My Website. All rights reserved.</p>
+	</footer>
+	<script>
+		let popup = document.getElementById("popup");
+
+		function openpopup(){
+			popup.classList.add("open-popup");
+		}
+		
+
+	</script>
+	
+</body>
+</html>

@@ -1,0 +1,146 @@
+/* Apply some basic styles to the body element */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #666;
+    text-decoration: underline;
+  }
+  
+  /* Style the main content area */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  main h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  .header-buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .login-button {
+    font-size: 1.125rem;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #172C42;
+    cursor: pointer;
+    margin-right: 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+  box-shadow: none;
+  }
+  
+  
+  
+  .icon-space {
+    width: 20px;
+  }
+  .join-button{
+    color: #FFF;
+    border: 1px solid #EF5844;
+    box-shadow: none !important;
+    background-color: #EF5844;
+    transition-duration: 300ms;
+    width: 170px;
+    height: 40px;
+    padding: 8px 24px;
+    font-size: 1.125rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    text-align: center;
+    transition: background 300ms ease-out;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 20px;
+    text-transform: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+  }
+  nav {
+    background-color: #f6f2f2;
+    overflow: hidden;
+    padding: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    margin-left: 30px;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: navajowhite;
+    box-sizing: border-box;
+    text-align: center;
+    transition-duration: 300ms;
+    width: 160px;
+    height: 40px;
+    padding: 8px 24px;
+    font-size: 1.125rem;
+    min-width: 64px;
+    border-radius: 20px;
+    text-transform: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  nav li a:hover {
+    background-color: #1ef0e5;
+  }
+  
