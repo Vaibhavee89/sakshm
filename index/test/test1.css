@@ -166,7 +166,7 @@ nav ul {
   margin: 30px 0 10px;
  
 }
-.popup button{
+.disabled_popup button{
   
     background-color: #22ece2;
     border: none;
@@ -184,10 +184,8 @@ nav ul {
       
   
 }
-.popup button:hover{
+.disabled_popup button:hover{
   background-color: #3e8e41;
     transform: translateY(-5px);
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
-
-

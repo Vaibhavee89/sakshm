@@ -19,43 +19,25 @@
 		<nav>
 			<ul>
 				<li><div class="container">
-          <button type="submit" class = "btn" onclick="openpopup()">Senior care</button>
-          <div class="popup" id="popup">
-            <h2>Who are You?</h2>
-            <button type="button" onclick="window.location.href='form.html'">Patient</button>
-
-            <button type="button">Volunteer</button>
-          </div>
-        </div></li>
-				
-		<li><div class="container">
-			<button type="submit" class = "btn" onclick="openpopup()">Disabled care</button>
-			<div class="popup" id="popup">
-			  <h2>Who are You?</h2>
-			  <button type="button" onclick="window.location.href='form.html'">Patient</button>
-  
-			  <button type="button">Volunteeer</button>
-			</div>
-		  </div></li>
-		  <li><div class="container">
-			<button type="submit" class = "btn" onclick="openpopup()">tutoring</button>
-			<div class="popup" id="popup">
-			  <h2>Who are You?</h2>
-			  <button type="button" onclick="window.location.href='form.html'">Patient</button>
-  
-			  <button type="button">Volunteer</button>
-			</div>
-		  </div></li>
-		  <li><div class="container">
-			<button type="submit" class = "btn" onclick="openpopup()">donate</button>
-			<div class="popup" id="popup">
-			  <h2>Who are You?</h2>
-			  <button type="button" onclick="window.location.href='form.html'">Patient</button>
-  
-			  <button type="button">Volunteer</button>
-			</div>
-		  </div></li>
-					
+					<button type="submit" class = "btn" onclick="openpopup()">disabled care</button>
+					<div class="popup" id="disabled_popup">
+					  <h2>Who are You?</h2>
+					  <button type="button" onclick="window.location.href='form.html'">Patient</button>
+		  
+					  <button type="button">Volunteer</button>
+					</div>
+				  </div></li>
+				  
+				<li><div class="container">
+					<button type="submit" class = "btn" onclick="openpopup()">Donate</button>
+					<div class="popup" id="Donate-popup">
+					  <h2>Who are You?</h2>
+					  <button type="button" onclick="window.location.href='index.html'">Patient</button>
+		  
+					  <button type="button">Volunteer</button>
+					</div>
+				  </div></li>
+				  
 			</ul>
 		</nav>
 	</main>
@@ -84,7 +66,7 @@
 		<p>&copy; 2023 My Website. All rights reserved.</p>
 	</footer>
 	<script>
-		let popup = document.getElementById("popup");
+		let popup = document.getElementById("disabled_popup");
 
 		function openpopup(){
 			popup.classList.add("open-popup");
